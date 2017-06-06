@@ -1,6 +1,6 @@
 import pyowm
 
-owm = pyowm.OWM('de4d44b98a9edd2d0e53c828490f81d7')  # You MUST provide a valid API key
+owm = pyowm.OWM('##############')  # You MUST provide a valid API key
 
 obs = owm.weather_at_place('London,GB') 
 w = obs.get_weather()
